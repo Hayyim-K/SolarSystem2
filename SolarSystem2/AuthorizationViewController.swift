@@ -21,11 +21,11 @@ class AuthorizationViewController: UIViewController, UITextFieldDelegate {
      }
     
     @IBAction func passButtonTapped() {
-        showAlert(title: "Забыл пароль?", message: "Твой пароль: \(userData.password)")
+        showAlertView(title: "Забыл пароль?", message: "Твой пароль: \(userData.password)")
     }
     
     @IBAction func nameButtonTapped() {
-        showAlert(title: "Забыл имя?", message: "Твоё имя: \(userData.username)")
+        showAlertView(title: "Забыл имя?", message: "Твоё имя: \(userData.username)")
     }
     
     @IBAction func enterButtonPressed() {
@@ -33,7 +33,7 @@ class AuthorizationViewController: UIViewController, UITextFieldDelegate {
             userTextField.text == userData.username,
             passTextField.text == userData.password
             else {
-            showAlert(title: "Что-то пошло не так",
+            showAlertView(title: "Что-то пошло не так",
                       message: "Проверь введенные данные",
                       textField: passTextField)
             return
@@ -42,7 +42,7 @@ class AuthorizationViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func aboutButtonPressed() {
-        showAlert(title: "About", message: "Приложение разработано при участии: Hayyim Vital, D.N.A., Kate Mamafitness,Vladislav Popov, helloslytherin, Artur.")
+        showAlertView(title: "About", message: "Приложение разработано при участии: Hayyim Vital, D.N.A., Kate Mamafitness,Vladislav Popov, helloslytherin, Artur.")
     }
     
     @IBAction func backSegue(segue: UIStoryboardSegue) {
@@ -52,7 +52,7 @@ class AuthorizationViewController: UIViewController, UITextFieldDelegate {
 }
 
 extension AuthorizationViewController {
-        private func showAlert(title: String, message: String, textField: UITextField? = nil) {
+        private func showAlertView(title: String, message: String, textField: UITextField? = nil) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Еще раз", style: .default) { _ in
             textField?.text = nil
