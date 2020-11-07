@@ -13,6 +13,8 @@
 		6F3CD6EB25572A16006E0760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD6E925572A16006E0760 /* Main.storyboard */; };
 		6F3CD6ED25572A1A006E0760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD6EC25572A1A006E0760 /* Assets.xcassets */; };
 		6F3CD6F025572A1A006E0760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD6EE25572A1A006E0760 /* LaunchScreen.storyboard */; };
+		6F3CD70225572E53006E0760 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70125572E53006E0760 /* PlanetModel.swift */; };
+		6F3CD70525572E83006E0760 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70425572E83006E0760 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F3CD6EC25572A1A006E0760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3CD6EF25572A1A006E0760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F3CD6F125572A1A006E0760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3CD70125572E53006E0760 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		6F3CD70425572E83006E0760 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		6F3CD6E225572A16006E0760 /* SolarSystem2 */ = {
 			isa = PBXGroup;
 			children = (
-				6F3CD6E325572A16006E0760 /* AppDelegate.swift */,
-				6F3CD6E525572A16006E0760 /* SceneDelegate.swift */,
+				6F3CD70425572E83006E0760 /* DataManager.swift */,
+				6F3CD70125572E53006E0760 /* PlanetModel.swift */,
 				6F3CD6E725572A16006E0760 /* ViewController.swift */,
 				6F3CD6E925572A16006E0760 /* Main.storyboard */,
 				6F3CD6EC25572A1A006E0760 /* Assets.xcassets */,
 				6F3CD6EE25572A1A006E0760 /* LaunchScreen.storyboard */,
 				6F3CD6F125572A1A006E0760 /* Info.plist */,
+				6F3CD6E325572A16006E0760 /* AppDelegate.swift */,
+				6F3CD6E525572A16006E0760 /* SceneDelegate.swift */,
 			);
 			path = SolarSystem2;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3CD6E825572A16006E0760 /* ViewController.swift in Sources */,
+				6F3CD70525572E83006E0760 /* DataManager.swift in Sources */,
+				6F3CD70225572E53006E0760 /* PlanetModel.swift in Sources */,
 				6F3CD6E425572A16006E0760 /* AppDelegate.swift in Sources */,
 				6F3CD6E625572A16006E0760 /* SceneDelegate.swift in Sources */,
 			);
