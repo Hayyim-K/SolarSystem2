@@ -10,6 +10,7 @@ import UIKit
 class TableViewControllerArtur: UITableViewController {
     
     var planetList = Planet.getPlanets
+    var planet2 = DataManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,4 +19,10 @@ class TableViewControllerArtur: UITableViewController {
         
     }
     
+}
+
+extension TableViewControllerArtur {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        planet2.names.count
+    }
 }
