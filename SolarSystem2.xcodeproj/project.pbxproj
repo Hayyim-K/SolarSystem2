@@ -15,6 +15,7 @@
 		6F3CD6F025572A1A006E0760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD6EE25572A1A006E0760 /* LaunchScreen.storyboard */; };
 		6F3CD70225572E53006E0760 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70125572E53006E0760 /* PlanetModel.swift */; };
 		6F3CD70525572E83006E0760 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70425572E83006E0760 /* DataManager.swift */; };
+		95A2E3662557D48B00A8FFC8 /* MainKate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A2E3642557D48B00A8FFC8 /* MainKate.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6F3CD6F125572A1A006E0760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F3CD70125572E53006E0760 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		6F3CD70425572E83006E0760 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		95A2E3652557D48B00A8FFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SolarSystem2/Base.lproj/MainKate.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		6F3CD6D725572A16006E0760 = {
 			isa = PBXGroup;
 			children = (
+				95A2E3642557D48B00A8FFC8 /* MainKate.storyboard */,
 				6F3CD6E225572A16006E0760 /* SolarSystem2 */,
 				6F3CD6E125572A16006E0760 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A2E3662557D48B00A8FFC8 /* MainKate.storyboard in Resources */,
 				6F3CD6F025572A1A006E0760 /* LaunchScreen.storyboard in Resources */,
 				6F3CD6ED25572A1A006E0760 /* Assets.xcassets in Resources */,
 				6F3CD6EB25572A16006E0760 /* Main.storyboard in Resources */,
@@ -168,6 +172,14 @@
 				6F3CD6EF25572A1A006E0760 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95A2E3642557D48B00A8FFC8 /* MainKate.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A2E3652557D48B00A8FFC8 /* Base */,
+			);
+			name = MainKate.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
