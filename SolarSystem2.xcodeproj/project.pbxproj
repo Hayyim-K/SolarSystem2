@@ -15,6 +15,8 @@
 		6F3CD6F025572A1A006E0760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD6EE25572A1A006E0760 /* LaunchScreen.storyboard */; };
 		6F3CD70225572E53006E0760 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70125572E53006E0760 /* PlanetModel.swift */; };
 		6F3CD70525572E83006E0760 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD70425572E83006E0760 /* DataManager.swift */; };
+		91338B882557D10E009F9745 /* StoryboardArtur.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91338B872557D10E009F9745 /* StoryboardArtur.storyboard */; };
+		91338B8D2557D143009F9745 /* TableViewControllerArtur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91338B8C2557D143009F9745 /* TableViewControllerArtur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6F3CD6F125572A1A006E0760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F3CD70125572E53006E0760 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		6F3CD70425572E83006E0760 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		91338B872557D10E009F9745 /* StoryboardArtur.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardArtur.storyboard; sourceTree = "<group>"; };
+		91338B8C2557D143009F9745 /* TableViewControllerArtur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerArtur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		6F3CD6D725572A16006E0760 = {
 			isa = PBXGroup;
 			children = (
+				91338B8A2557D112009F9745 /* Artur */,
 				6F3CD6E225572A16006E0760 /* SolarSystem2 */,
 				6F3CD6E125572A16006E0760 /* Products */,
 			);
@@ -71,6 +76,15 @@
 				6F3CD6E525572A16006E0760 /* SceneDelegate.swift */,
 			);
 			path = SolarSystem2;
+			sourceTree = "<group>";
+		};
+		91338B8A2557D112009F9745 /* Artur */ = {
+			isa = PBXGroup;
+			children = (
+				91338B872557D10E009F9745 /* StoryboardArtur.storyboard */,
+				91338B8C2557D143009F9745 /* TableViewControllerArtur.swift */,
+			);
+			path = Artur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91338B882557D10E009F9745 /* StoryboardArtur.storyboard in Resources */,
 				6F3CD6F025572A1A006E0760 /* LaunchScreen.storyboard in Resources */,
 				6F3CD6ED25572A1A006E0760 /* Assets.xcassets in Resources */,
 				6F3CD6EB25572A16006E0760 /* Main.storyboard in Resources */,
@@ -147,6 +162,7 @@
 				6F3CD70525572E83006E0760 /* DataManager.swift in Sources */,
 				6F3CD70225572E53006E0760 /* PlanetModel.swift in Sources */,
 				6F3CD6E425572A16006E0760 /* AppDelegate.swift in Sources */,
+				91338B8D2557D143009F9745 /* TableViewControllerArtur.swift in Sources */,
 				6F3CD6E625572A16006E0760 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
